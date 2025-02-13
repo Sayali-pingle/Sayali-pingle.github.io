@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Analysing Employee Commute Patterns using parking card swipes data
+description: Heirarchical Modelling - Developed Generalized mixed-effects models with time correlated random effects and compared the results using BIC.
 img: assets/img/12.jpg
 importance: 1
 category: work
@@ -18,7 +18,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/12.jpg
+    img: /assets/img/parking.jpg
     ---
 
 <div class="row">
