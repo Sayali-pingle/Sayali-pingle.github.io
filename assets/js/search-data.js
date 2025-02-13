@@ -447,9 +447,9 @@ ninja.data = [{
           description: "Heirarchical Modelling - Developed Generalized mixed-effects models with time correlated random effects and compared the results using BIC.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-groove-with-data",
+          title: 'Groove with Data',
+          description: "R shiny dashboard for exploring and learning about your favorite artists.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
