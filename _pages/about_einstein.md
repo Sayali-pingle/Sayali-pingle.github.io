@@ -1,5 +1,11 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome! I am a graduate student at Duke University, pursuing a Master's in Statistical Science. With a strong foundation in statistics and proficient programming skills, I specialize in building scalable, data-driven applications that drive meaningful business impact.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have worked as a Data Scientist for two years, gaining deep industry experience in understanding business needs and delivering high-value solutions. I strongly believe in the power of simplicity—"Simple models are often better than complex ones"—while knowing when complexity is necessary to unlock deeper insights.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I am deeply fascinated by the rapidly evolving field of Generative AI. I am actively building agentic RAG pipelines with Deepseek and LangGraph, continuously staying updated with the latest advancements in AI and machine learning.
+
+I am seeking full-time opportunities where I can apply my expertise to exciting projects and collaborate with innovative teams. If my work aligns with your interests, I’d love to connect!
+
+Beyond analytics, I am a novice artist with a passion for sketching and acrylic painting. My creative side helps me craft aesthetic data visualizations and dashboards, blending art with analytics to tell compelling data stories.
+
+Let’s connect and explore opportunities together!
