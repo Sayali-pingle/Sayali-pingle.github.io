@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Groove with Data
+description: R shiny dashboard for exploring and learning about your favorite artists.
+img: assets/img/spotify.jpg
 importance: 2
 category: work
 giscus_comments: true
