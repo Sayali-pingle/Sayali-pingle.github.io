@@ -442,9 +442,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-analysing-employee-commute-patterns-using-parking-card-swipes-data",
+          title: 'Analysing Employee Commute Patterns using parking card swipes data',
+          description: "Heirarchical Modelling - Developed Generalized mixed-effects models with time correlated random effects and compared the results using BIC.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
