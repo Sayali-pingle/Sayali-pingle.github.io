@@ -52,15 +52,21 @@
       "startDate": "Aug 2023",
       "endDate": "May 2025",
       "courses": ["Courses: Bayesian Statistics, Inferential Statistics, Deep Learning, Heirarchical Modeling, Probabilistic Machine learning, Algorithmic Trading, Math Finance, SQL, R programming, Open Source Programming", "Extracurricular: Lead Instructor @ Duke Femmes, Women in Science and Engineering", "Teaching Assistant: POLSCI 671: Applied Bayesian Modelling, STA 101: Inferential Statistics, COMPSCI 370: Intro to AI"]
+    },
+    {
+      "institution": "Narsee Monjee Institute of Management Studies",
+      "location": "Mumbai, India",
+      "studyType": "BSc in Applied Statistics and Analytics",
+      "startDate": "Jul 2019",
+      "endDate": "May 2022",
+      "courses": ["Courses: Hypothesis Testing, Estimation Theory, Calculus, Linear Algebra, Probability Theory, Data Visualization (Tableau, Power BI, SAS VA), Multivariate Analysis using SPSS, Machine Learning, Marketing Analytics, RDBMS", "Extracurricular: Lead R programming workshops, Head of Digital Communications @ Rotaract Club of NMIMS, Researcher @ E-cell"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "State Finalist @ Regional Mathematics Olympiad",
+      "awarder": "Homi Bhabha Science Foundation",
+      "summary": "Received award from Chief Minister of Madhya Pradesh and Qualified for INMO (Indian National Mathematics Olympiad)."
     }
   ],
   "certificates": [
