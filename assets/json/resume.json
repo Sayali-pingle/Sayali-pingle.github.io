@@ -26,7 +26,36 @@
       "url": "https://chesstutorai.com/",
       "startDate": "Aug 2024",
       "endDate": "Present",
-      "highlights": []
+      "highlights": ["Built LLM- Agentic RAG model with Langgraph and Deepseek to give Grandmaster level insight post chess game for 1K+ monthly users tailored to their level of chess understanding.",
+      "Cleaned large datasets of post-game chess analyses (>100K entries) using Pandas and NLP packages, building a structured database for training.",
+      "Optimized prompts with a modularized DSPy framework, incorporating Bootstrap Few-shot and chain-of-thought reasoning, resulting in a 35% improvement in response quality.",
+      "Designed testing framework using Pytest.",
+      "Researched and developed chess-specific evaluation metrics (e.g., strategic depth, threat awareness) and deployed a holistic evaluation pipeline to assess performance for response relevance and quality.",
+      "Analyzed user data and tailored responses to ELO ratings and play styles, achieving 15% increase in user satisfaction."]
+    },
+    {
+      "name": "Fidelity Investments",
+      "position": "Data Science LLM Intern",
+      "url": "https://fcatalyst.com/overview",
+      "startDate": "Jun 2024",
+      "endDate": "Aug 2024",
+      "highlights": ["Developed ‘Marble Chat’- a Retrieval Augmented Generation (RAG) based ChatBot to aid in business research and detect profitable and sustainable investment options using LlamaIndex, Milvus DB, OpenAI API, saving 100+ hours of manual analysis with 0.5 sec of chatbot response time.",
+      "Built an automated data mining pipeline for 20+ websites for real-time financial data ingestion. Improved text data extraction accuracy by 30% using prompt optimization and parser customization to handle unstructured data.",
+      "Independently deployed an end-to-end scalable production pipeline to the cloud using Microsoft Azure and Docker."]
+      
+    },
+    {
+      "name": "Pangea Tech Solutions",
+      "position": "Data Scientist @ Aditya Birla Group",
+      "startDate": "Jun 2022",
+      "endDate": "Jun 2023",
+      "highlights": ["Engineered a large-scale supply chain analytics dashboard using Databricks, PySpark, and PostgreSQL processing 30,000+ rows daily to monitor and forecast operations real-time, improved and developed new KPIs to enhance business performance , saving $75M in operational costs annually.",
+      "Streamlined Transport Efficiency by optimizing delivery truck routes and Identifying GPS black spots using geospatial data and google API leading to 10% reduction in carbon emission.",
+      "Implemented XgBoost to forecast truck delivery time (92.5% accuracy) reducing mean off-loading wait time by 10 hr.",
+      "Automated routine tasks by creating Python scripts for Data Quality and Data Validation checks reducing 8 hr work to 10 min runtime. Debugged and managed Data Pipelines with the Data Engineering team on Databricks Clusters.",
+      "Created Power BI dashboards as a blueprint for the computer science and UI/UX teams to replicate in the application, facilitating seamless data integration and user interface design.",
+      "Designed an overspeeding alert system to enhance truck driver safety, reduce transit damage, and lower vehicle insurance claims.",
+      "Fostered collaborative communication & presented data-driven business insights and recommendations to clients."]
     }
   ],
   "volunteer": [
