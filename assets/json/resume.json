@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Sayali Pingle",
+    "label": "MS Statistics @ Duke University | Ex- Data Scientist @ Fidelity Investments",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "sayali.pingle@duke.edu",
+    "phone": "+1 919-638-1384",
+    "url": "https://sayali-pingle.github.io/",
+    "summary": "AI Engineer/ Data Scientist with 2 years of experience in building large-scale scalable data-driven business solutions with a Master's in Statistics From Duke University.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,12 +24,12 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Duke University",
+      "position": "MS Statistical Science",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "startDate": "Aug 2023",
+      "endDate": "May 2025",
+      "summary": "Courses: Bayesian Statistics, Inferential Statistics, Deep Learning, Heirarchical Modeling, Probabilistic Machine learning, Algorithmic Trading, Math Finance, SQL, R programming, Open Source Programming"
       "highlights": ["Relativity"]
     }
   ],
