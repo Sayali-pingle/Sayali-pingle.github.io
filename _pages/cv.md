@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: Resume
 nav: true
 nav_order: 5
 cv_pdf: resume_sayali.pdf # you can also use external links here
