@@ -1,0 +1,41 @@
+.company-logos-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    background: #f8f9fa;
+    margin: 30px 0;
+  }
+  
+  .company-logos {
+    display: flex;
+    animation: scroll 20s linear infinite;
+    
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+  
+  .logo-item {
+    flex: 0 0 auto;
+    margin: 0 40px;
+    
+    img {
+      height: 50px;
+      width: auto;
+      filter: grayscale(100%);
+      transition: filter 0.3s ease;
+      
+      &:hover {
+        filter: grayscale(0%);
+      }
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
