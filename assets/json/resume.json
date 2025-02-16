@@ -201,6 +201,12 @@
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": ["Python (Pandas, Scikit-learn, NLTK, Numpy, Matplotlib, Seaborn, Plotly, SciPy, Statsmodels, PySpark, Pytest, PyTorch, TensorFlow)", "R (Tidyverse, ggplot2, dplyr, RShiny)", "SQL (MySQL, PostgreSQL, Oracle, Redshift)", "Cloud (Azure, AWS, GCP, DataBricks)", "Docker", "Git"]
+    },
+    {
+      "name": "Softwares",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Power BI", "Tableau", "SPSS", "SAS VA", "RStudio", "Databricks", "GitHub", "Cursor","MS Excel", "TORA", "MATLAB"]
     }
   ],
   "languages": [
