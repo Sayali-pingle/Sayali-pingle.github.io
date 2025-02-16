@@ -1384,3 +1384,8 @@ ninja-keys::part(ninja-input-wrapper) {
     transform: translateX(-50%);
   }
 }
+
+.highlight-word {
+  color: var(--global-theme-color);
+  font-weight: 500;
+}

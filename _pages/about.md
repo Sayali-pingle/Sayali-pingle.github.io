@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: # You can leave this empty or customize it with your own text
 
@@ -27,20 +27,20 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! I am a graduate student at Duke University, pursuing a Master's in Statistical Science. With a strong foundation in statistics and proficient programming skills, I specialize in building scalable, data-driven applications that drive meaningful business impact.
+Welcome! I am a graduate student at <span class="highlight-word">Duke University</span>, pursuing a Master's in <span class="highlight-word">Statistical Science</span>. With a strong foundation in statistics and proficient programming skills, I specialize in building scalable, data-driven applications that drive meaningful business impact.
 
-I have worked as a Data Scientist for two years, gaining deep industry experience in understanding business needs and delivering high-value solutions. I strongly believe in the power of simplicity—"Simple models are often better than complex ones"—while knowing when complexity is necessary to unlock deeper insights.
+I have worked as a <span class="highlight-word">Data Scientist</span> for two years, gaining deep industry experience in understanding business needs and delivering high-value solutions. I strongly believe in the power of simplicity—"Simple models are often better than complex ones"—while knowing when complexity is necessary to unlock deeper insights.
 
-Currently, I am deeply fascinated by the rapidly evolving field of Generative AI. I am actively building agentic RAG pipelines with Deepseek and LangGraph, continuously staying updated with the latest advancements in AI and machine learning.
+Currently, I am deeply fascinated by the rapidly evolving field of <span class="highlight-word">Generative AI</span>. I am actively building <span class="highlight-word">agentic RAG pipelines</span> with Deepseek and LangGraph, continuously staying updated with the latest advancements in AI and machine learning.
 
-I am seeking full-time opportunities where I can apply my expertise to exciting projects and collaborate with innovative teams. If my work aligns with your interests, I’d love to connect!
+I am seeking full-time opportunities where I can apply my expertise to exciting projects and collaborate with innovative teams. If my work aligns with your interests, I'd love to connect!
 
 Beyond analytics, I am a novice artist with a passion for sketching and acrylic painting. My creative side helps me craft aesthetic data visualizations and dashboards, blending art with analytics to tell compelling data stories.
 
-Companies I have worked with:
+<span class="highlight-word">Companies I have worked with:</span>
 
 {% include company_logos.liquid %}
 
-Let’s connect and explore opportunities together!
+Let's connect and explore opportunities together!
 
 
