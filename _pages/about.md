@@ -37,6 +37,8 @@ I am seeking full-time opportunities where I can apply my expertise to exciting 
 
 Beyond analytics, I am a novice artist with a passion for sketching and acrylic painting. My creative side helps me craft aesthetic data visualizations and dashboards, blending art with analytics to tell compelling data stories.
 
+Companies I have worked with:
+
 {% include company_logos.liquid %}
 
 Let’s connect and explore opportunities together!
