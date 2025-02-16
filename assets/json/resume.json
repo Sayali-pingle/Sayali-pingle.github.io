@@ -56,6 +56,16 @@
       "Created Power BI dashboards as a blueprint for the computer science and UI/UX teams to replicate in the application, facilitating seamless data integration and user interface design.",
       "Designed an overspeeding alert system to enhance truck driver safety, reduce transit damage, and lower vehicle insurance claims.",
       "Fostered collaborative communication & presented data-driven business insights and recommendations to clients."]
+    },
+    {
+      "name": "Varidus Asia Pacific Ventures Pvt Lte",
+      "position": "Lead Data Scientist",
+      "startDate": "May 2021",
+      "endDate": "Sept 2021",
+      "highlights": ["Spearheaded a team of 4 members to build a Random Forest Machine Learning model with an aim to predict whether an IPO (Initial Public Offering) will be successful and worth investing (Achieved Accuracy of 82%).",
+      "Data Collection using in‑depth financial market research through web scraping sec filings, Data Extrapolation and astute data mining techniques.",
+      "Detailed Exploratory Data Analysis to translate complex dataset into graphical depictions with SAS VA, Python.",
+      "Delivered comprehensive research findings to a diverse audience, including interns from various teams, while also taking the lead in organising the flow of these informative sessions."]
     }
   ],
   "volunteer": [
