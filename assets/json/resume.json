@@ -24,7 +24,7 @@
       "name": "Chess Tutor AI",
       "position": "AI Engineer",
       "url": "https://chesstutorai.com/",
-      "startDate": "2023.08",
+      "startDate": "2024.08",
       "endDate": "Present",
       "highlights": ["Built LLM- Agentic RAG model with Langgraph and Deepseek to give Grandmaster level insight post chess game for 1K+ monthly users tailored to their level of chess understanding.",
       "Cleaned large datasets of post-game chess analyses (>100K entries) using Pandas and NLP packages, building a structured database for training.",
