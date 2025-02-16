@@ -1,16 +1,14 @@
 <div class="company-logos-container">
-  <div class="company-logos-track">
-    <div class="company-logos">
-      {% for company in site.data.companies %}
-        <div class="logo-item">
-          <img src="{{ company.logo | relative_url }}" alt="{{ company.name }}" title="{{ company.name }}">
-        </div>
-      {% endfor %}
-      {% for company in site.data.companies %}
-        <div class="logo-item">
-          <img src="{{ company.logo | relative_url }}" alt="{{ company.name }}" title="{{ company.name }}">
-        </div>
-      {% endfor %}
-    </div>
+  <div class="company-logos">
+    {% for company in site.data.companies %}
+      <div class="logo-item">
+        <img src="{{ company.logo | relative_url }}" alt="{{ company.name }}">
+      </div>
+    {% endfor %}
+    {% for company in site.data.companies %}
+      <div class="logo-item">
+        <img src="{{ company.logo | relative_url }}" alt="{{ company.name }}">
+      </div>
+    {% endfor %}
   </div>
 </div>
