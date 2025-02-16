@@ -24,14 +24,12 @@
   },
   "work": [
     {
-      "name": "",
-      "position": "MS Statistical Science",
-      "url": "https://example.com",
-      "startDate": "Aug 2023",
-      "endDate": "May 2025",
-      "highlights": ["Courses: Bayesian Statistics, Inferential Statistics, Deep Learning, Heirarchical Modeling, Probabilistic Machine learning, Algorithmic Trading, Math Finance, SQL, R programming, Open Source Programming",
-                    "Extracurricular: Lead Instructor @ Duke Femmes, Women in Science and Engineering",
-                    "Teaching Assistant: POLSCI 671: Applied Bayesian Modelling, STA 101: Inferential Statistics, COMPSCI 370: Intro to AI"]
+      "name": "Chess Tutor AI",
+      "position": "AI Engineer",
+      "url": "https://chesstutorai.com/",
+      "startDate": "Aug 2024",
+      "endDate": "Present",
+      "highlights": []
     }
   ],
   "volunteer": [
@@ -50,12 +48,10 @@
     {
       "institution": "Duke University",
       "location": "Durham, NC, USA",
-      "area": "Statistical Science",
-      "studyType": "MS",
+      "studyType": "MS Statistical Science",
       "startDate": "Aug 2023",
       "endDate": "May 2025",
-      "courses": ["Bayesian Statistics", "Inferential Statistics", "Deep Learning", "Heirarchical Modeling", "Probabilistic Machine learning", "Algorithmic Trading", "Math Finance", "SQL", "R programming", "Open Source Programming"],
-      "highlights": ["Extracurricular: Lead Instructor @ Duke Femmes, Women in Science and Engineering", "Teaching Assistant: POLSCI 671: Applied Bayesian Modelling, STA 101: Inferential Statistics, COMPSCI 370: Intro to AI"]
+      "courses": ["Courses: Bayesian Statistics, Inferential Statistics, Deep Learning, Heirarchical Modeling, Probabilistic Machine learning, Algorithmic Trading, Math Finance, SQL, R programming, Open Source Programming", "Extracurricular: Lead Instructor @ Duke Femmes, Women in Science and Engineering", "Teaching Assistant: POLSCI 671: Applied Bayesian Modelling, STA 101: Inferential Statistics, COMPSCI 370: Intro to AI"]
     }
   ],
   "awards": [
