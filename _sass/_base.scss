@@ -1346,7 +1346,7 @@ ninja-keys::part(ninja-input-wrapper) {
 // Add this at the end of the file to test
 .company-logos-container {
   width: 100%;
-  height: 100px;
+  height: 125px;
   position: relative;
   overflow: hidden;
   background: var(--global-bg-color);
@@ -1365,20 +1365,14 @@ ninja-keys::part(ninja-input-wrapper) {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 2rem;
+  padding: 0 1rem;
 
   img {
-    max-width: 150px;
-    max-height: 50px;
+    max-width: 187.5px;
+    max-height: 62.5px;
     width: auto;
     height: auto;
     object-fit: contain;
-    filter: grayscale(100%);
-    transition: filter 0.3s ease;
-    
-    &:hover {
-      filter: grayscale(0%);
-    }
   }
 }
 
