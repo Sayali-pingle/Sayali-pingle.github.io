@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "This ia a collection of my academic projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -386,8 +386,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-analysing-employee-commute-patterns-using-parking-card-swipes-data",
-          title: 'Analysing Employee Commute Patterns using parking card swipes data',
+          section: "News",},{id: "projects-analysing-employee-commute-patterns",
+          title: 'Analysing Employee Commute Patterns',
           description: "Heirarchical Modelling - Developed Generalized mixed-effects models with time correlated random effects and compared the results using BIC.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
