@@ -48,17 +48,19 @@ Key Findings:
 To predict commute frequency, several models were tested:
 
 🫤 Linear Regression - Since observations from the same ID are likely to be more similar to each other than observations from different IDs, independence assumption is simply violated.<br>
-🫤 Mixed-Effects Models – Consider this model: `$$ t_{ij} = \beta_{0} + \beta_{1} \cdot \text{day}_{ij} + u_{i} + \varepsilon_{ij}
+🫤 Mixed-Effects Models – Consider this model: 
+`$$
+t_{ij} = \beta_{0} + \beta_{1} \cdot \text{day}_{ij} + u_{i} + \varepsilon_{ij}
 $$`
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/independence.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/independence.png" title="example image" class="img-fluid rounded z-depth-1" style="height:400px;" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/qq.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/qq.png" title="example image" class="img-fluid rounded z-depth-1" style="height:400px;" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/const_var.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/const_var.png" title="example image" class="img-fluid rounded z-depth-1" style="height:400px;" %}
     </div>
 </div>
 <div class="caption">
