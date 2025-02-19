@@ -8,8 +8,6 @@ category: work
 related_publications: true
 ---
 
-Simplistic overview of unlocking commute patterns
-
 🚗 The Question:
 
 How do commute distance, employee location, and weekday patterns impact driving frequency? Can we model this behavior effectively?
@@ -45,11 +43,24 @@ Key Findings:
 📌 Some employees drive more frequently than others, even at similar distances.
 
 
-📊 Modeling the Commute Patterns
+📊 Modeling to predict commute frequency:
+
 To predict commute frequency, several models were tested:
 
-Linear Regression (lm) – Too simplistic, failed to account for variance.
-Mixed-Effects Models (lmer, glmer) – Improved performance by accounting for individual differences.
+🫤 Linear Regression - Since observations from the same ID are likely to be more similar to each other than observations from different IDs, independence assumption is simply violated.<br>
+🫤 Mixed-Effects Models – Consider this model: `$$ t_{ij} = \beta_{0} + \beta_{1} \cdot \text{day}_{ij} + u_{i} + \varepsilon_{ij}
+$$`
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/independence.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/qq.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/const_var.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 Generalized Linear Model (glm, Poisson Distribution) – The best model! It balanced accuracy, interpretability, and model fit (lowest BIC).
 ✅ Key Takeaways
 🚀 Spatial and temporal factors play a crucial role in commute behavior.
