@@ -61,6 +61,10 @@ $$`
         {% include figure.liquid path="assets/img/const_var.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Left: Residuals centered around zero without and evident pattern in data. DW-Test confirmed independence, Centre: Hmm.. Looks normal with slight deviation at the ends, Right: Ouch! the model fails assumption of constant variance due to heteroscadasticity
+</div>
+
 Generalized Linear Model (glm, Poisson Distribution) – The best model! It balanced accuracy, interpretability, and model fit (lowest BIC).
 ✅ Key Takeaways
 🚀 Spatial and temporal factors play a crucial role in commute behavior.
@@ -82,9 +86,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
         {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+
 
 The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
