@@ -8,18 +8,30 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Unlocking Commute Patterns: A Data-Driven Approach
+🚗 The Question
+How do commute distance, employee location, and weekday patterns impact driving frequency? Can we model this behavior effectively?
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+🔍 Exploring the Data
+A one-month dataset of 1,154 employees' parking swipe records was analyzed. Each commute day (when an employee used their parking card) was tracked by zip code, distance, and day of the week.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/parking.jpg
-    ---
+Key Findings from Exploratory Data Analysis (EDA):
+📌 Commute frequency varies significantly by zip code.
+📌 Midweek sees the highest driving rates, weekends the lowest.
+📌 Some employees drive more frequently than others, even at similar distances.
+
+(Insert a visually appealing bar chart or map to illustrate zip code distribution and commute trends.)
+
+📊 Modeling the Commute Patterns
+To predict commute frequency, several models were tested:
+
+Linear Regression (lm) – Too simplistic, failed to account for variance.
+Mixed-Effects Models (lmer, glmer) – Improved performance by accounting for individual differences.
+Generalized Linear Model (glm, Poisson Distribution) – The best model! It balanced accuracy, interpretability, and model fit (lowest BIC).
+✅ Key Takeaways
+🚀 Spatial and temporal factors play a crucial role in commute behavior.
+🚀 A Poisson-based model best captures driving frequency.
+🚀 Strategic parking and commute planning could optimize employee transportation.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
