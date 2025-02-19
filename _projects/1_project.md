@@ -18,7 +18,7 @@ How do commute distance, employee location, and weekday patterns impact driving 
 
 A one-month dataset of 1,154 employees' parking swipe records was analyzed. Each commute day (when an employee used their parking card) was tracked by zip code, distance, and day of the week.
 
-Key Findings from Exploratory Data Analysis (EDA):
+Exploratory Data Analysis (EDA):
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -28,16 +28,22 @@ Key Findings from Exploratory Data Analysis (EDA):
         <iframe src="/assets/html/day_chart.html" title="Interactive day Code Chart" class="img-fluid rounded z-depth-1" style="width:100%; height:400px; border:none;"></iframe>
     </div>
 </div>
-<div class="caption">
 
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe src="/assets/html/driv_pat.html" title="Interactive Driving Pattern Chart" class="img-fluid rounded z-depth-1" style="width:100%; height:500px; border:none;"></iframe>
+    </div>
+</div>
+<div class="caption">
+    Average number of drives per day for up to 50 randomly sampled employees within each zip code. Standard error bars indicate variability in driving frequency.
 </div>
 
-📌 Commute frequency varies significantly by zip code.
-📌 Midweek sees the highest driving rates, weekends the lowest.
+Key Findings:
+
+📌 Commute frequency varies significantly by zip code.<br>
+📌 Midweek sees the highest driving rates, weekends the lowest.<br>
 📌 Some employees drive more frequently than others, even at similar distances.
 
-(Insert a visually appealing bar chart or map to illustrate zip code distribution and commute trends.)
 
 📊 Modeling the Commute Patterns
 To predict commute frequency, several models were tested:
@@ -51,14 +57,7 @@ Generalized Linear Model (glm, Poisson Distribution) – The best model! It bala
 🚀 Strategic parking and commute planning could optimize employee transportation.
 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <iframe src="/assets/html/driv_pat.html" title="Interactive Driving Pattern Chart" class="img-fluid rounded z-depth-1" style="width:100%; height:400px; border:none;"></iframe>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
 Say you wanted to write a bit about your project before you posted the rest of the images.
