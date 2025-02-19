@@ -388,7 +388,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-analysing-employee-commute-patterns",
           title: 'Analysing Employee Commute Patterns',
-          description: "Heirarchical Modelling - Developed Generalized mixed-effects models with time correlated random effects and compared the results using BIC.",
+          description: "Hierarchical Modeling - Developed Generalized mixed-effects models with time correlated random effects and compared the results using BIC.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-groove-with-data",
