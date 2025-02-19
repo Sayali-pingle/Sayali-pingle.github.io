@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Analysing Employee Commute Patterns
-description: Heirarchical Modelling - Developed Generalized mixed-effects models with time correlated random effects and compared the results using BIC.
+description: Hierarchical Modeling - Developed Generalized mixed-effects models with time correlated random effects and compared the results using BIC.
 img: assets/img/parking.jpg
 importance: 1
 category: work
@@ -29,6 +29,7 @@ Key Findings from Exploratory Data Analysis (EDA):
     </div>
 </div>
 <div class="caption">
+
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot.
 </div>
 
@@ -52,7 +53,7 @@ Generalized Linear Model (glm, Poisson Distribution) – The best model! It bala
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <iframe src="/assets/html/driv_pat.html" title="Interactive Driving Pattern Chart" class="img-fluid rounded z-depth-1" style="width:100%; height:400px; border:none;"></iframe>
     </div>
 </div>
 <div class="caption">
