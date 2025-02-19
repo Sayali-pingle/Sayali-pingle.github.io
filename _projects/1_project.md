@@ -5,6 +5,7 @@ description: Hierarchical Modeling - Developed Generalized mixed-effects models 
 img: assets/img/parking.jpg
 importance: 1
 category: work
+tags: formatting math
 related_publications: true
 ---
 
@@ -47,8 +48,8 @@ Key Findings:
 
 To predict commute frequency, several models were tested:
 
-🫤 Linear Regression - Since observations from the same ID are likely to be more similar to each other than observations from different IDs, independence assumption is simply violated.<br>
-🫤 Mixed-Effects Models – Consider this model: 
+🤔 Linear Regression - Since observations from the same ID are likely to be more similar to each other than observations from different IDs, independence assumption is simply violated.<br>
+🤔 Mixed-Effects Models – Consider this model: 
 `$$
 t_{ij} = \beta_{0} + \beta_{1} \cdot \text{day}_{ij} + u_{i} + \varepsilon_{ij}
 $$`
@@ -66,8 +67,11 @@ $$`
 <div class="caption">
     Left: Residuals centered around zero without and evident pattern in data. DW-Test confirmed independence, Centre: Hmm.. Looks normal with slight deviation at the ends, Right: Ouch! the model fails assumption of constant variance due to heteroscadasticity
 </div>
+Count data often exhibit a mean-variance relationship, where the variance increases as the mean increases.This can lead to non-constant variance.
 
-Generalized Linear Model (glm, Poisson Distribution) – The best model! It balanced accuracy, interpretability, and model fit (lowest BIC).
+😎 Generalized Linear Mixed Model – Since `total drives` represents count data, both Poisson and Binomial models are potential choices. However, Poisson assumes that the mean and variance are equal, which is often unrealistic in real-world datasets due to overdispersion. Additionally, `total drives to office` has an upper bound (the total possible commute days in a month per employee), making a Binomial model more appropriate than a Poisson model.
+
+
 ✅ Key Takeaways
 🚀 Spatial and temporal factors play a crucial role in commute behavior.
 🚀 A Poisson-based model best captures driving frequency.
