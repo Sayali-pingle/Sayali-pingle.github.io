@@ -2,7 +2,7 @@
 layout: page
 title: Analysing Employee Commute Patterns
 description: Heirarchical Modelling - Developed Generalized mixed-effects models with time correlated random effects and compared the results using BIC.
-img: assets/img/12.jpg
+img: assets/img/parking.jpg
 importance: 1
 category: work
 related_publications: true
