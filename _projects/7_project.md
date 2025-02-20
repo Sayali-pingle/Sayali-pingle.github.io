@@ -5,7 +5,7 @@ description: Generated Images from Text Prompts using Conditional Variational En
 img: assets/img/dl.jepg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 Check out the document below for the detailed implementation:
 
