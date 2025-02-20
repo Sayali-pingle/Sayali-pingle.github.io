@@ -28,6 +28,7 @@ Exploratory Data Analysis (EDA):
     </div>
 </div>
 
+ 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <iframe src="/assets/html/driv_pat.html" title="Interactive Driving Pattern Chart" class="img-fluid rounded z-depth-1" style="width:100%; height:500px; border:none;"></iframe>
@@ -50,9 +51,7 @@ To predict commute frequency, several models were tested:
 
 🤔 Linear Regression - Since observations from the same ID are likely to be more similar to each other than observations from different IDs, independence assumption is simply violated.<br>
 🤔 Mixed-Effects Models – Consider this model: 
-`$$
-t_{ij} = \beta_{0} + \beta_{1} \cdot \text{day}_{ij} + u_{i} + \varepsilon_{ij}
-$$`
+`t_{ij} = \beta_{0} + \beta_{1} \cdot \text{day}_{ij} + u_{i} + \varepsilon_{ij}`
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/independence.png" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; object-fit: contain;" %}
@@ -69,7 +68,42 @@ $$`
 </div>
 Count data often exhibit a mean-variance relationship, where the variance increases as the mean increases.This can lead to non-constant variance.
 
-😎 Generalized Linear Mixed Model – Since `total drives` represents count data, both Poisson and Binomial models are potential choices. However, Poisson assumes that the mean and variance are equal, which is often unrealistic in real-world datasets due to overdispersion. Additionally, `total drives to office` has an upper bound (the total possible commute days in a month per employee), making a Binomial model more appropriate than a Poisson model.
+<table>
+    <thead>
+        <tr>
+            <th>Model Type</th>
+            <th>Description</th>
+            <th>Advantages</th>
+            <th>Disadvantages</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Linear Regression</td>
+            <td>Simple model assuming linear relationship</td>
+            <td>Easy to interpret, quick to compute</td>
+            <td>Assumes independence, may not handle complex patterns</td>
+        </tr>
+        <tr>
+            <td>Mixed-Effects Models</td>
+            <td>Accounts for both fixed and random effects</td>
+            <td>Can model hierarchical data, handles within-group correlation</td>
+            <td>More complex, requires careful specification</td>
+        </tr>
+        <tr>
+            <td>Poisson Regression</td>
+            <td>Suitable for count data with equal mean and variance</td>
+            <td>Simple, interpretable, good for small counts</td>
+            <td>Assumes mean equals variance, may not handle overdispersion</td>
+        </tr>
+        <tr>
+            <td>Binomial Regression</td>
+            <td>Suitable for count data with an upper bound</td>
+            <td>Handles overdispersion, appropriate for bounded count data</td>
+            <td>More complex, requires careful consideration of model assumptions</td>
+        </tr>
+    </tbody>
+</table>
 
 
 ✅ Key Takeaways
