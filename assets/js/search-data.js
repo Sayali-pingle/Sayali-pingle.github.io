@@ -418,7 +418,7 @@ ninja.data = [{
               window.location.href = "/projects/6_project/";
             },},{id: "projects-text-to-image-synthesis",
           title: 'Text-to-Image Synthesis',
-          description: "Used",
+          description: "Generated Images from Text Prompts using Conditional Variational Encoders Combined with Gated Fusion and Seq-2-Seq Methods.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-singapore-traffic-analytics",
