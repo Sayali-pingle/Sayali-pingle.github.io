@@ -2,7 +2,7 @@
 layout: page
 title: Text-to-Image Synthesis
 description: Generated Images from Text Prompts using Conditional Variational Encoders Combined with Gated Fusion and Seq-2-Seq Methods.
-img: assets/img/dl.jepg
+img: assets/img/dl.jpg
 importance: 1
 category: work
 related_publications: false
