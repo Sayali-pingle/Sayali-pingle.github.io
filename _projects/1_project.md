@@ -130,6 +130,6 @@ While the assumption of constant variance is still not perfectly met, this model
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <iframe src="/assets/pdf/praking_project.pdf" title="Detailed Project PDF" class="img-fluid rounded z-depth-1" style="width:100%; height:600px; border:none;"></iframe>
+        <embed src="/assets/pdf/praking_project.pdf" type="application/pdf" class="img-fluid rounded z-depth-1" style="width:100%; height:600px; border:none;" />
     </div>
 </div>
