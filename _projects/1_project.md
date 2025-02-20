@@ -107,6 +107,7 @@ Below is the Model Comparision chart:
 </tr>
 </tbody>
 </table>
+<br>
 
 The BIC for Binomial Model is the lowest and hence, this is the best fit model amongst the others. 
 
