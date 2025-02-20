@@ -68,7 +68,7 @@ To predict commute frequency, several models were tested:
 </div>
 Count data often exhibit a mean-variance relationship, where the variance increases as the mean increases.This can lead to non-constant variance.
 
-😎 Generalized Linear Mixed Model – Since `total drives` represents count data, both Poisson and Binomial models are potential choices. However, Poisson assumes that the mean and variance are equal, which is often unrealistic in real-world datasets due to overdispersion. Additionally, `total drives to office` has an upper bound (the total possible commute days in a month per employee), making a Binomial model more appropriate than a Poisson model.
+😎 **Generalized Linear Mixed Model** – Since `total drives` represents count data, both Poisson and Binomial models are potential choices. However, Poisson assumes that the mean and variance are equal, which is often unrealistic in real-world datasets due to overdispersion. Additionally, `total drives to office` has an upper bound (the total possible commute days in a month per employee), making a Binomial model more appropriate than a Poisson model.
 Below is the Model Comparision chart:
 
 <table>
