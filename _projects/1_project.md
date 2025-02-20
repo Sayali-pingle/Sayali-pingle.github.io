@@ -6,7 +6,7 @@ img: assets/img/parking.jpg
 importance: 1
 category: work
 tags: formatting math
-related_publications: true
+related_publications: false
 ---
 
 <span style="font-size:36px;"> **🚗 The Question:**<span>
@@ -105,22 +105,14 @@ The BIC for Binomial Model is the lowest and hence, this is the best fit model a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-</tbody>
-</table>
-
-The BIC for Binomial Model is the lowest and hence, this is the best fit model amongst the others. 
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <iframe src="/assets/img/binomial_res.png" title="Interactive Driving Pattern Chart" class="img-fluid rounded z-depth-1" style="width:100%; height:300px; border:none;"></iframe>
+        <iframe src="/assets/img/binomial_res.png" title="Interactive Driving Pattern Chart" class="img-fluid rounded z-depth-1" style="width:100%; height:200px; border:none;"></iframe>
     </div>
 </div>
 
 The residuals still show some heteroscedasticity, but the variance pattern is less structured compared to the Linear Mixed Effect Model.
 While the assumption of constant variance is still not perfectly met, this model provides a better fit than the others.
 
-
-✅ Key Takeaways
+<span style="font-size:36px;"> **✅ Key Takeaways**<span>
 🚀 Spatial and temporal factors play a crucial role in commute behavior.
 🚀 A Poisson-based model best captures driving frequency.
 🚀 Strategic parking and commute planning could optimize employee transportation.
