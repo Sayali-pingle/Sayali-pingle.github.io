@@ -24,12 +24,17 @@ Exploratory Data Analysis (EDA):
         <iframe src="/assets/html/zip_chart.html" title="Interactive Zip Code Chart" class="img-fluid rounded z-depth-1" style="width:100%; height:400px; border:none;"></iframe>
     </div>
 </div>
+<div class="caption">
+    There seems to be huge difference in count of employees living at different zip codes and should be accounted for in the model if necessary.
+</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <iframe src="/assets/html/day_chart.html" title="Interactive day Code Chart" class="img-fluid rounded z-depth-1" style="width:100%; height:400px; border:none;"></iframe>
     </div>
 </div>
-
+<div class="caption">
+    Commute Frequency is highest on average mid week with lowest on weekends.
+</div>
  
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -37,7 +42,7 @@ Exploratory Data Analysis (EDA):
     </div>
 </div>
 <div class="caption">
-    Average number of drives per day for up to 50 randomly sampled employees within each zip code. Standard error bars indicate variability in driving frequency.
+    Average number of drives per day for 50 randomly sampled employees within each zip code. Standard error bars indicate variability in driving frequency.
 </div>
 
 <span style="font-size:27px;"> **📊 Modeling to predict commute frequency:** <span>
