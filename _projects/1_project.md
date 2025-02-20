@@ -125,3 +125,11 @@ While the assumption of constant variance is still not perfectly met, this model
 🚀 Commute behavior varies widely, with some employees driving more frequently than others, even at similar distances.<br>
 🚀 A Binomial Mixed-Effects Model best predicts commute frequency, outperforming Linear and Poisson models by accounting for individual variability and bounded commute counts.<br>
 🚀 Findings can help optimize parking allocation and inform flexible work policies to reduce peak-hour congestion.
+
+**View the Detailed Project:**
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe src="/assets/pdf/praking_project.pdf" title="Detailed Project PDF" class="img-fluid rounded z-depth-1" style="width:100%; height:600px; border:none;"></iframe>
+    </div>
+</div>
