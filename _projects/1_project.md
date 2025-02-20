@@ -119,7 +119,8 @@ The BIC for Binomial Model is the lowest and hence, this is the best fit model a
 The residuals still show some heteroscedasticity, but the variance pattern is less structured compared to the Linear Mixed Effect Model.
 While the assumption of constant variance is still not perfectly met, this model provides a better fit than the others.
 
-<span style="font-size:27px;"> **✅ Key Takeaways**<span>
-🚀 Commute behavior varies widely, with some employees driving more frequently than others, even at similar distances.
-🚀 A Binomial Mixed-Effects Model best predicts commute frequency, outperforming Linear and Poisson models by accounting for individual variability and bounded commute counts.
+<span style="font-size:27px;"> **✅ Key Takeaways:**<span>
+
+🚀 Commute behavior varies widely, with some employees driving more frequently than others, even at similar distances.<br>
+🚀 A Binomial Mixed-Effects Model best predicts commute frequency, outperforming Linear and Poisson models by accounting for individual variability and bounded commute counts.<br>
 🚀 Findings can help optimize parking allocation and inform flexible work policies to reduce peak-hour congestion.
