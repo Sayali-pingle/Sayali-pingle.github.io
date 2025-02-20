@@ -9,11 +9,11 @@ tags: formatting math
 related_publications: true
 ---
 
-🚗 The Question:
+<span style="font-size:36px;"> **🚗 The Question:**<span>
 
 How do commute distance, employee location, and weekday patterns impact driving frequency? Can we model this behavior effectively?
 
-🔍 Exploring the Data:
+<span style="font-size:36px;"> **🔍 Exploring the Data:**<span>
 
 A one-month dataset of 1,154 employees' parking swipe records was analyzed. Each commute day (when an employee used their parking card) was tracked by zip code, distance, and day of the week.
 
@@ -38,14 +38,7 @@ Exploratory Data Analysis (EDA):
     Average number of drives per day for up to 50 randomly sampled employees within each zip code. Standard error bars indicate variability in driving frequency.
 </div>
 
-Key Findings:
-
-📌 Commute frequency varies significantly by zip code.<br>
-📌 Midweek sees the highest driving rates, weekends the lowest.<br>
-📌 Some employees drive more frequently than others, even at similar distances.
-
-
-📊 Modeling to predict commute frequency:
+<span style="font-size:36px;"> 📊 Modeling to predict commute frequency: <span>
 
 To predict commute frequency, several models were tested:
 
@@ -105,6 +98,13 @@ Below is the Model Comparision chart:
 <td>9</td>
 <td>23407.63</td>
 </tr>
+</tbody>
+</table>
+
+The BIC for Binomial Model is the lowest and hence, this is the best fit model amongst the others. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
 </tbody>
 </table>
 
