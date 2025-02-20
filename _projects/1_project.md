@@ -40,13 +40,13 @@ Exploratory Data Analysis (EDA):
     Average number of drives per day for up to 50 randomly sampled employees within each zip code. Standard error bars indicate variability in driving frequency.
 </div>
 
-<span style="font-size:27px;"> 📊 Modeling to predict commute frequency: <span>
+<span style="font-size:27px;"> **📊 Modeling to predict commute frequency:** <span>
 
 To predict commute frequency, several models were tested:
 
-🤔 Linear Regression - Since observations from the same ID are likely to be more similar to each other than observations from different IDs, independence assumption is simply violated.<br>
-🤔 Mixed-Effects Models – Consider this model: 
-`t_{ij} = \beta_{0} + \beta_{1} \cdot \text{day}_{ij} + u_{i} + \varepsilon_{ij}`
+🤔 **Linear Regression** - Since observations from the same ID are likely to be more similar to each other than observations from different IDs, independence assumption is simply violated.<br>
+🤔 **Mixed-Effects Models** – Consider this model: 
+`tdrive = day + (1|id)` (ID is now considered a grouping factor)
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/independence.png" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; object-fit: contain;" %}
@@ -107,7 +107,7 @@ The BIC for Binomial Model is the lowest and hence, this is the best fit model a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <iframe src="/assets/img/binomial_res.png" title="Interactive Driving Pattern Chart" class="img-fluid rounded z-depth-1" style="width:100%; height:200px; border:none;"></iframe>
+        <img src="/assets/img/binomial_res.png" title="Interactive Driving Pattern Chart" class="img-fluid rounded z-depth-1" style="width:100%; height:auto; border:none;">
     </div>
 </div>
 
