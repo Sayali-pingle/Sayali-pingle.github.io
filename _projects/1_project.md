@@ -72,35 +72,35 @@ Count data often exhibit a mean-variance relationship, where the variance increa
     <thead>
         <tr>
             <th>Model Type</th>
-            <th>Description</th>
-            <th>Advantages</th>
-            <th>Disadvantages</th>
+            <th>Model Formula (R Code)</th>
+            <th>Degrees of Freedom</th>
+            <th>BIC</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Linear Regression</td>
-            <td>Simple model assuming linear relationship</td>
-            <td>Easy to interpret, quick to compute</td>
-            <td>Assumes independence, may not handle complex patterns</td>
+            <td>Mixed Effect Model</td>
+            <td>Poisson Mixed Effect Model</td>
+            <td>Binomial Mixed Effect Model</td>
         </tr>
         <tr>
-            <td>Mixed-Effects Models</td>
-            <td>Accounts for both fixed and random effects</td>
-            <td>Can model hierarchical data, handles within-group correlation</td>
-            <td>More complex, requires careful specification</td>
+            <td>tdrive~as.factor(day)+ as.factor(id)</td>
+            <td>tdrive~ as.factor(day)+(1|id)</td>
+            <td>tdrive ~ as.factor(day) + cdist_scaled + (1 | zip/id)</td>
+            <td>cbind(tdrive, 30 - tdrive) ~ as.factor(day) + zip + (1 | id)</td>
         </tr>
         <tr>
-            <td>Poisson Regression</td>
-            <td>Suitable for count data with equal mean and variance</td>
-            <td>Simple, interpretable, good for small counts</td>
-            <td>Assumes mean equals variance, may not handle overdispersion</td>
+            <td>1161</td>
+            <td>9</td>
+            <td>10</td>
+            <td>9</td>
         </tr>
         <tr>
-            <td>Binomial Regression</td>
-            <td>Suitable for count data with an upper bound</td>
-            <td>Handles overdispersion, appropriate for bounded count data</td>
-            <td>More complex, requires careful consideration of model assumptions</td>
+            <td>33750.41</td>
+            <td>26603.19</td>
+            <td>23643.00</td>
+            <td>23407.63</td>
         </tr>
     </tbody>
 </table>
