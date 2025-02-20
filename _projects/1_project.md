@@ -69,40 +69,40 @@ To predict commute frequency, several models were tested:
 Count data often exhibit a mean-variance relationship, where the variance increases as the mean increases.This can lead to non-constant variance.
 
 <table>
-    <thead>
-        <tr>
-            <th>Model Type</th>
-            <th>Model Formula (R Code)</th>
-            <th>Degrees of Freedom</th>
-            <th>BIC</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Linear Regression</td>
-            <td>Mixed Effect Model</td>
-            <td>Poisson Mixed Effect Model</td>
-            <td>Binomial Mixed Effect Model</td>
-        </tr>
-        <tr>
-            <td>tdrive~as.factor(day)+ as.factor(id)</td>
-            <td>tdrive~ as.factor(day)+(1|id)</td>
-            <td>tdrive ~ as.factor(day) + cdist_scaled + (1 | zip/id)</td>
-            <td>cbind(tdrive, 30 - tdrive) ~ as.factor(day) + zip + (1 | id)</td>
-        </tr>
-        <tr>
-            <td>1161</td>
-            <td>9</td>
-            <td>10</td>
-            <td>9</td>
-        </tr>
-        <tr>
-            <td>33750.41</td>
-            <td>26603.19</td>
-            <td>23643.00</td>
-            <td>23407.63</td>
-        </tr>
-    </tbody>
+<thead>
+<tr>
+<th>Model Type</th>
+<th>Model Formula (R Code)</th>
+<th>Degrees of Freedom</th>
+<th>BIC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linear Regression</td>
+<td>tdrive~as.factor(day)+ as.factor(id)</td>
+<td>1161</td>
+<td>33750.41</td>
+</tr>
+<tr>
+<td>Mixed Effect Model</td>
+<td>tdrive~ as.factor(day)+(1|id)</td>
+<td>9</td>
+<td>26603.19</td>
+</tr>
+<tr>
+<td>Poisson Mixed Effect Model</td>
+<td>tdrive ~ as.factor(day) + cdist_scaled + (1 | zip/id)</td>
+<td>10</td>
+<td>23643.00</td>
+</tr>
+<tr>
+<td>Binomial Mixed Effect Model</td>
+<td>cbind(tdrive, 30 - tdrive) ~ as.factor(day) + zip + (1 | id)</td>
+<td>9</td>
+<td>23407.63</td>
+</tr>
+</tbody>
 </table>
 
 
