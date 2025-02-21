@@ -5,7 +5,7 @@ description: R shiny dashboard for exploring and learning about your favorite ar
 img: assets/img/spotify.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 I am facing some temporary AWS Deployment issues but meanwhile checkout this dashboard demonstration:
