@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Peak Planner
+description: LLM-based scheduler integrating Apple Health & Calendar data to optimize daily routine and automate task priority
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
