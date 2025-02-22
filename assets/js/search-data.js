@@ -408,7 +408,7 @@ ninja.data = [{
               window.location.href = "/projects/4_project/";
             },},{id: "projects-algorithmic-trading",
           title: 'Algorithmic Trading',
-          description: "Adaptive Pairs Trading with Bayesian MCMC Sampling",
+          description: "Developed Trading Strategy using Adaptive Pairs Trading with Bayesian MCMC Sampling | Won 3rd Prize in Trading Competition sponsored by Optiver",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
