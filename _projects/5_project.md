@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Algorithmic Trading
-description: Adaptive Pairs Trading with Bayesian MCMC Sampling
+description: Developed Trading Strategy using Adaptive Pairs Trading with Bayesian MCMC Sampling | Won 3rd Prize in Trading Competition sponsored by Optiver
 img: assets/img/trade.jpg
 importance: 3
 category: work
