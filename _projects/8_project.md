@@ -3,7 +3,7 @@ layout: page
 title: Singapore Traffic Analytics
 description: Creating Large HuggingFace Dataset and detecting traffic patterns using camera data
 img: assets/img/9.jpg
-importance: 2
+importance: 5
 category: work
 giscus_comments: true
 ---

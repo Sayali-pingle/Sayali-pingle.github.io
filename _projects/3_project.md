@@ -4,7 +4,7 @@ title: Peak Planner
 description: LLM-based scheduler integrating Apple Health & Calendar data to optimize daily routine and automate task priority
 img: assets/img/coloricon.png
 redirect: https://github.com/minhanhto09/dukeaihackathon24?tab=readme-ov-file#llm-based-schedule-optimizer---peakplanner
-importance: 3
+importance: 4
 category: work
 ---
 
