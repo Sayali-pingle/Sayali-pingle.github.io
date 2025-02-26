@@ -401,21 +401,11 @@ ninja.data = [{
           description: "LLM-based scheduler integrating Apple Health &amp; Calendar data to optimize daily routine and automate task priority",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
             },},{id: "projects-algorithmic-trading",
           title: 'Algorithmic Trading',
           description: "Developed Trading Strategy using Adaptive Pairs Trading with Bayesian MCMC Sampling | Won 3rd Prize in Trading Competition sponsored by Optiver",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
             },},{id: "projects-text-to-image-synthesis",
           title: 'Text-to-Image Synthesis',
           description: "Generated Images from Text Prompts using Conditional Variational Encoders Combined with Gated Fusion and Seq-2-Seq Methods.",
